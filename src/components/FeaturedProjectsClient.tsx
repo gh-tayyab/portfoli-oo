@@ -29,14 +29,15 @@ const projects = [
   },
   {
     id: 3,
-    title: "Gallery Album",
-    description: "Gallery album website showcasing images, categories, and sharing.",
-    image: "/websites/website2.png",
-    alt: "Gallery Album website",
+    title: "FlexForce Gymnasium",
+    description:
+      "Gym website with classes, memberships, trainers, and tracking.",
+    image: "/websites/website1.JPG",
+    alt: "FlexForce Gymnasium website",
     technologies: ["React", "Next.js", "Tailwind"],
-    demoLink: "https://gallery-album-two.vercel.app/",
-    codeLink: "https://github.com/gh-tayyab/gallery-album",
-  }
+    demoLink: "https://flexforce-gymnasium.vercel.app/",
+    codeLink: "https://github.com/gh-tayyab/FlexForce",
+  },
 ];
 
 export default function FeaturedProjectsClient() {
