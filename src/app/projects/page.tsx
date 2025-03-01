@@ -10,6 +10,7 @@ const projects = [
     description:
       "E-commerce website with products, secure payments, and fast delivery.",
     image: "/websites/website0.png",
+    alt: "E-Commerce App website",
     technologies: ["React", "Next.js", "Tailwind"],
     demoLink: "https://e-smartstore.vercel.app/",
     codeLink: "https://github.com/gh-tayyab/e-smart",
@@ -19,7 +20,8 @@ const projects = [
     title: "FlexForce Gymnasium",
     description:
       "Gym website with classes, memberships, trainers, and tracking.",
-    image: "/websites/website1.jpg",
+    image: "/websites/website1.JPG",
+    alt: "FlexForce Gymnasium website",
     technologies: ["React", "Next.js", "Tailwind"],
     demoLink: "https://flexforce-gymnasium.vercel.app/",
     codeLink: "https://github.com/gh-tayyab/FlexForce",
@@ -30,6 +32,7 @@ const projects = [
     description:
       "Gallery album website showcasing images, categories, and sharing.",
     image: "/websites/website2.png",
+    alt: "Gallery Album website",
     technologies: ["React", "Next.js", "Tailwind"],
     demoLink: "https://gallery-album-two.vercel.app/",
     codeLink: "https://github.com/gh-tayyab/gallery-album",
@@ -40,6 +43,7 @@ const projects = [
     description:
       "Panaversity website offering courses, certifications, and career growth.",
     image: "/websites/website3.png",
+    alt: "Panaverse Dao website",
     technologies: ["React", "Next.js", "Tailwind"],
     demoLink: "https://panaverse-dao-cloneweb3.vercel.app/",
     codeLink: "https://github.com/gh-tayyab/Panaverse-Dao",
@@ -49,7 +53,8 @@ const projects = [
     title: "Seaside Escape Getaways",
     description:
       "Seaside Escape Getaways: Relaxing vacations by the ocean.",
-    image: "/websites/website4.jpg",
+    image: "/websites/website4.JPG",
+    alt: "Seaside Escape Getaways website",
     technologies: ["React", "Next.js", "Tailwind"],
     demoLink: "https://seaside-escape-gateways.vercel.app/",
     codeLink: "https://github.com/gh-tayyab/Seaside-Escape-Gateways",
@@ -59,7 +64,8 @@ const projects = [
     title: "Praroz Finance",
     description:
       "Fast, flexible financing for B2B, B2C & SaaS, with data analytics to boost revenue.",
-    image: "/websites/website5.jpg",
+    image: "/websites/website5.JPG",
+    alt: "Praroz Finance website",
     technologies: ["React", "Next.js", "Tailwind"],
     demoLink: "https://praroz.vercel.app/",
     codeLink: "https://github.com/gh-tayyab/PraRoz-Website",
@@ -70,6 +76,7 @@ const projects = [
     description:
       "Exclusive high-quality fashion at the best prices! Shop top trends with us.",
     image: "/websites/website6.png",
+    alt: "E-Shop Haven website",
     technologies: ["React", "Next.js", "Tailwind"],
     demoLink: "https://e-shophaven.vercel.app/",
     codeLink: "https://github.com/gh-tayyab/E-Commerce",
@@ -108,7 +115,7 @@ export default function Projects() {
               <figure className="relative h-48 w-full border-b border-gray-100 dark:border-gray-700">
                 <Image
                   src={project.image}
-                  alt={`Screenshot of ${project.title}`}
+                  alt={`Screenshot of ${project.alt}`}
                   fill
                   className="object-cover"
                 />
